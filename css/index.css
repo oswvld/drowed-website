@@ -1,0 +1,103 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  margin-top: 100px;
+}
+
+@media (max-width: 768px) {
+  .video-element {
+    width: 100%;
+  }
+}
+#hero-section {
+  height: 100vh;
+  margin-top: 0px;
+}
+
+#hero-section h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0px;
+  animation-name: appariLogo;
+  animation-duration: 2s;
+}
+
+#video-section {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+}
+#video-section .subtitle {
+  text-align: center;
+}
+#video-section .video-element {
+  position: relative;
+  min-width: 80%;
+  height: 600px;
+  background: url("../images/exampleVideo.jpg");
+  background-size: cover;
+  margin: 40px 0;
+}
+
+#team-section {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+#team-section .col-section {
+  width: 50%;
+  height: 500px;
+  text-align: center;
+}
+
+.breakdownBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% - 80px);
+  height: 250px;
+  background-color: #acacac;
+  margin: 20px 40px;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.breakdownBlock:hover {
+  background-color: white;
+  color: grey;
+}
+
+footer {
+  text-align: center;
+}
+
+.page-preproduction .container-preproduction {
+  margin: 0 100px;
+}
+.page-preproduction .title {
+  font-size: 5em;
+  font-weight: 400;
+}
+.page-preproduction p {
+  font-size: 2em;
+}
+
+@keyframes appariLogo {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
