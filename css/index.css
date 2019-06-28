@@ -1,10 +1,10 @@
 @font-face {
   font-family: "DMSans";
-  src: url("/fonts/dmsans-regular-webfont.woff") format("woff");
+  src: url("./fonts/dmsans-regular-webfont.woff") format("woff");
 }
 @font-face {
   font-family: "DMSans-Bold";
-  src: url("/fonts/dmsans-bold-webfont.woff") format("woff");
+  src: url("./fonts/dmsans-bold-webfont.woff") format("woff");
 }
 html {
   font-family: DMSans, serif;
