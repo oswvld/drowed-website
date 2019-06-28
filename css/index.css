@@ -1,13 +1,25 @@
+@font-face {
+  font-family: "DMSans";
+  src: url("/fonts/dmsans-regular-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: "DMSans-Bold";
+  src: url("/fonts/dmsans-bold-webfont.woff") format("woff");
+}
+html {
+  font-family: DMSans, serif;
+  font-size: 12px;
+}
+
 body {
   background-color: black;
   color: white;
-  font-family: sans-serif;
 }
 
 .section {
   position: relative;
   width: 100%;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 @media (max-width: 768px) {
@@ -28,6 +40,7 @@ body {
   margin: 0px;
   animation-name: appariLogo;
   animation-duration: 2s;
+  font-size: 5rem;
 }
 
 #video-section {
@@ -36,22 +49,25 @@ body {
   flex-direction: column;
   align-items: center;
 }
-#video-section .subtitle {
-  text-align: center;
-}
 #video-section .video-element {
-  position: relative;
+  position: absolute;
   min-width: 80%;
   height: 600px;
   background: url("../images/exampleVideo.jpg");
   background-size: cover;
   margin: 40px 0;
+  transform: translateY(0px);
 }
 
 #team-section {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
+}
+#team-section .subtitle {
+  text-align: center;
+  font-family: DMSans-Bold, sans-serif;
+  font-size: 1.8rem;
 }
 #team-section .col-section {
   width: 50%;
@@ -61,13 +77,12 @@ body {
 
 .breakdownBlock {
   display: flex;
-  justify-content: center;
+  padding: 0 70px;
   align-items: center;
-  width: calc(100% - 80px);
   height: 250px;
   background-color: #acacac;
-  margin: 20px 40px;
-  font-size: 2em;
+  margin: 20px 80px;
+  font-size: 3em;
   cursor: pointer;
 }
 
@@ -80,21 +95,35 @@ footer {
   text-align: center;
 }
 
-.page-preproduction .container-preproduction {
-  margin: 0 100px;
+/* Page Pre-Production */
+.container-preproduction {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 50px;
 }
-.page-preproduction .title {
+
+.img {
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+  background-color: #eaeaea;
+}
+
+.title {
   font-size: 5em;
   font-weight: 400;
 }
-.page-preproduction p {
-  font-size: 2em;
+
+p {
+  font-size: 1.5em;
+  font-weight: 100;
+}
+p from {
+  opacity: 0;
 }
 
 @keyframes appariLogo {
-  from {
-    opacity: 0;
-  }
   to {
     opacity: 1;
   }
