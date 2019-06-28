@@ -7,5 +7,5 @@ window.onscroll = function(e){
   console.log(this.scrollY)
 
   var scrolled = window.pageYOffset
-  document.getElementsByClassName('video-element')[0].style.transform = 'translateY('+scrolled * -2+'px)'
+  document.getElementsByClassName('video-element')[0].style.transform = 'translateY('+scrolled * -3+'px)'
 }
