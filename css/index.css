@@ -77,12 +77,12 @@ body {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  margin-top: 300px;
 }
 #team-section .subtitle {
   text-align: center;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.8rem;
+  font-family: Heavitas, sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
 }
 #team-section .col-section {
   width: 50%;
