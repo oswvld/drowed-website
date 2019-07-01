@@ -19,16 +19,9 @@ let currentFrame = 1
 // }
 
 let preProductionBlock = document.getElementById('preProduction')
-let preProductionHiddenBlock = document.getElementById('preProduction-hidden')
 
 preProductionBlock.onclick = function() {
-
-  console.log(preProductionHiddenBlock.style.display)
-
-  if( preProductionHiddenBlock.style.display == 'block' )
-    preProductionHiddenBlock.style.display = 'none'
-  else
-    preProductionHiddenBlock.style.display = 'block'
+  window.location.href = './pre-production.html'
 }
 
 let productionBlock = document.getElementById('production')
