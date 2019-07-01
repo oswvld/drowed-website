@@ -12,11 +12,11 @@ let currentFrame = 1
 //   document.getElementsByClassName('video-element')[0].style.transform = 'translateY('+scrolled * -2+'px)'
 // }
 
-window.onload = function(e){
-  setInterval(function(){
-    changeFrame()
-  }, 100)
-}
+// window.onload = function(e){
+//   setInterval(function(){
+//     changeFrame()
+//   }, 100)
+// }
 
 function changeFrame(){
 
