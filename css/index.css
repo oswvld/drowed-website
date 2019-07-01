@@ -13,10 +13,11 @@
 }
 html {
   font-family: "Courier", arial;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 body {
+  overflow-x: hidden;
   background-color: black;
   color: white;
   margin: 0px;
@@ -204,6 +205,8 @@ body {
 
 footer {
   text-align: center;
+  font-size: 14px;
+  font-style: italic;
 }
 
 /* Page Pre-Production */
@@ -231,6 +234,44 @@ p {
   font-weight: 100;
 }
 
+.titleSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  background-color: grey;
+  cursor: pointer;
+}
+
+.titleSection h3 {
+  margin: 0px;
+  font-family: Heavitas, sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+#conceptSection-hidden {
+  display: none;
+}
+
+.singleSection-row {
+  padding: 60px 100px;
+  display: flex;
+}
+.singleSection-row .singleSection-column {
+  width: 50%;
+}
+.singleSection-row .image {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 300px;
+  height: 300px;
+  background-color: grey;
+}
+
+/* Animations */
 @keyframes appariLogo {
   from {
     opacity: 0;
