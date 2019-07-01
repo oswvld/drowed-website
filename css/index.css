@@ -12,7 +12,7 @@
   src: url("../fonts/heavitas-webfont.woff") format("woff");
 }
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: "Courier", arial;
   font-size: 12px;
 }
 
@@ -62,15 +62,12 @@ body {
   flex-direction: column;
   align-items: center;
   margin-top: 0px;
+  padding: 100px 0;
 }
 #video-section .video-element {
-  position: absolute;
-  min-width: 80%;
+  width: 1000px;
   height: 600px;
-  background: url("../images/exampleVideo.jpg");
-  background-size: cover;
-  margin: 40px 0;
-  transform: translateY(0px);
+  background-color: lightgray;
 }
 
 #team-section {
@@ -78,16 +75,26 @@ body {
   flex-wrap: nowrap;
   justify-content: center;
 }
-#team-section .subtitle {
-  text-align: center;
-  font-family: Heavitas, sans-serif;
-  font-size: 2rem;
-  letter-spacing: 1px;
-}
 #team-section .col-section {
   width: 50%;
   height: 500px;
   text-align: center;
+}
+#team-section .profilePicture {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+#team-section .nameMember {
+  margin-top: 40px;
+  font-family: Heavitas, "sans-serif";
+  font-size: 1rem;
+}
+#team-section .memberBio {
+  text-align: left;
+  padding: 0 50px;
 }
 
 .breakdownBlock {
@@ -111,6 +118,26 @@ body {
   height: 300px;
   background-image: url("../images/preproduzione-block.png");
   background-size: cover;
+  cursor: pointer;
+}
+
+#preProduction-hidden {
+  display: none;
+  padding: 60px 100px;
+}
+#preProduction-hidden .preProduction-row {
+  display: flex;
+}
+#preProduction-hidden .preProduction-row .preProduction-column {
+  width: 50%;
+}
+#preProduction-hidden .preProduction-row .image {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 300px;
+  height: 300px;
+  background-color: grey;
 }
 
 #production {
@@ -118,6 +145,26 @@ body {
   height: 300px;
   background-image: url("../images/produzione-block.png");
   background-size: cover;
+  cursor: pointer;
+}
+
+#production-hidden {
+  display: none;
+  padding: 60px 100px;
+}
+#production-hidden .production-row {
+  display: flex;
+}
+#production-hidden .production-row .production-column {
+  width: 50%;
+}
+#production-hidden .production-row .image {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 300px;
+  height: 300px;
+  background-color: grey;
 }
 
 #postProduction {
@@ -125,6 +172,34 @@ body {
   height: 300px;
   background-image: url("../images/postproduzione-block.jpeg");
   background-size: cover;
+  cursor: pointer;
+}
+
+#postProduction-hidden {
+  display: none;
+  padding: 60px 100px;
+}
+#postProduction-hidden .postProduction-row {
+  display: flex;
+}
+#postProduction-hidden .postProduction-row .postProduction-column {
+  width: 50%;
+}
+#postProduction-hidden .postProduction-row .image {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 300px;
+  height: 300px;
+  background-color: grey;
+}
+
+#teamTitle {
+  margin-top: 100px;
+  text-align: center;
+  font-family: Heavitas, sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
 }
 
 footer {
