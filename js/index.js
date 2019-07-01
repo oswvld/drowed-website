@@ -18,6 +18,45 @@ let currentFrame = 1
 //   }, 100)
 // }
 
+let preProductionBlock = document.getElementById('preProduction')
+let preProductionHiddenBlock = document.getElementById('preProduction-hidden')
+
+preProductionBlock.onclick = function() {
+
+  console.log(preProductionHiddenBlock.style.display)
+
+  if( preProductionHiddenBlock.style.display == 'block' )
+    preProductionHiddenBlock.style.display = 'none'
+  else
+    preProductionHiddenBlock.style.display = 'block'
+}
+
+let productionBlock = document.getElementById('production')
+let productionHiddenBlock = document.getElementById('production-hidden')
+
+productionBlock.onclick = function() {
+
+  console.log(productionHiddenBlock.style.display)
+
+  if( productionHiddenBlock.style.display == 'block' )
+    productionHiddenBlock.style.display = 'none'
+  else
+    productionHiddenBlock.style.display = 'block'
+}
+
+let postProductionBlock = document.getElementById('postProduction')
+let postProductionHiddenBlock = document.getElementById('postProduction-hidden')
+
+postProductionBlock.onclick = function() {
+
+  console.log(postProductionHiddenBlock.style.display)
+
+  if( postProductionHiddenBlock.style.display == 'block' )
+    postProductionHiddenBlock.style.display = 'none'
+  else
+    postProductionHiddenBlock.style.display = 'block'
+}
+
 function changeFrame(){
 
     if(currentFrame == 96){
