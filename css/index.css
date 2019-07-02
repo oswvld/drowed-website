@@ -87,6 +87,16 @@ body {
   border-radius: 50%;
   margin: 0 auto;
 }
+#team-section #profileLivia {
+  background-image: url("../images/livia.png");
+  background-size: cover;
+  background-position-x: -75px;
+}
+#team-section #profileIrene {
+  background-image: url("../images/irene.jpg");
+  background-size: cover;
+  background-position-x: -10px;
+}
 #team-section .nameMember {
   margin-top: 40px;
   font-family: Heavitas, "sans-serif";

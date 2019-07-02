@@ -93,6 +93,18 @@ body{
     margin: 0 auto;
   }
 
+  #profileLivia{
+    background-image: url('../images/livia.png');
+    background-size: cover;
+    background-position-x: -75px;
+  }
+
+  #profileIrene{
+    background-image: url('../images/irene.jpg');
+    background-size: cover;
+    background-position-x: -10px;
+  }
+
   .nameMember{
     margin-top: 40px;
     font-family: Heavitas, "sans-serif";
