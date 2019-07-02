@@ -10,10 +10,11 @@
 </head>
 <body>
   <div id="preProduction"></div>
+  <!-- Concept -->
   <div id="conceptSection" class="titleSection">
-    <h3>Concept</h3>
+    <h3>_Concept</h3>
   </div>
-  <div id="conceptSection-hidden">
+  <div id="conceptSection-hidden" class="section-hidden">
       <div class="singleSection-row">
           <p class="singleSection-column">
               Drowned racconta la solitudine di chi procede a fatica giorno dopo giorno, di chi sente di non avere un motivo per alzare lo sguardo, di chi non riesce a uscire dalla propria prigione. Racconta la storia di chi è solo anche se circondato da persone, di chi non si accorge di essere amato.
@@ -25,6 +26,49 @@
             <div class="image singleSection-column"></div>
       </div>
   </div>
+  <!-- Personaggio -->
+  <div id="personaggioSection" class="titleSection">
+    <h3>_Personaggio</h3>
+  </div>
+  <div id="personaggioSection-hidden" class="section-hidden">
+      <div class="singleSection-row">
+          <p class="singleSection-column">
+            Il modello del robot non è stato realizzato dal gruppo, ma è stato preso da Marketplace. Il modello originale comprendeva anche il rigging che è stato tuttavia modificato per poter rispondere alle esigenze dell’animazione. In particolar modo sono stati inseriti degli IK bones (Inverse Kinematics) per muovere in modo più naturale le gambe del personaggio. È stato inserito un control bone, legato a tutto lo scheletro, per poter muovere l’armatura nel suo insieme e quindi permettere al robot di seguire un percorso. Inoltre sono state sistemate delle dipendenze child-parent che nell’originale non funzionavano.
+            </p>
+            <div class="image singleSection-column"></div>
+      </div>
+  </div>
+  <!-- Ambiente -->
+  <div id="ambienteSection" class="titleSection">
+    <h3>_Ambiente</h3>
+  </div>
+  <div id="ambienteSection-hidden" class="section-hidden">
+      <div class="singleSection-row">
+          <p class="singleSection-column">
+            <strong>Il nulla</strong>
+            <br/>
+            Il robot si trova nel Nulla. Per restituire l’idea di un mondo vasto e infinito si è giocato con la luce e con le inquadrature. L’oscurità infatti ci ha permesso di estendere il piano solo fino ai margini del visibile.
+Poiché le lucine da sole non riescono a illuminare la scena è stata aggiunta una luce area con valore di strenght basso che illumina solo la zona adiacente al personaggio: così facendo la scena è ben visibile e la risoluzione del render è alta.
+            <br/><br/>
+            <strong>La nebbia</strong>
+            <br/>
+            Per aumentare il senso di perdita e smarrimento si è deciso di adoperare la nebbia a livello della gamba in tutte le scene. Inizialmente è stata creata con Blender utilizzando l’effetto Smoke. Successivamente, a causa dei tempi di rendering troppo estesi, si è deciso di applicarla in post-produzione.
+            </p>
+            <div class="image singleSection-column"></div>
+      </div>
+  </div>
+  <!-- Storyboard -->
+  <div id="storyboardSection" class="titleSection">
+      <h3>_Storyboard</h3>
+    </div>
+    <div id="storyboardSection-hidden" class="section-hidden">
+        <div class="singleSection-row storyboard-grid">
+          <img src="images/Storyboard/storyboard_1.jpg">
+          <img src="images/Storyboard/storyboard_2.jpg">
+          <img src="images/Storyboard/storyboard_3.jpg">
+          <img src="images/Storyboard/storyboard_4.jpg">
+        </div>
+    </div>
     <script src="./js/pre-production.js"></script>
 </body>
 </html>
