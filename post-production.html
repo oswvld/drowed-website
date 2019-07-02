@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Post-production – Drowned</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://use.typekit.net/eli1kka.css">
+</head>
+<body>
+  <div id="postProduction"></div>
+  <!-- Post Processing -->
+  <div id="postprocessingSection" class="titleSection">
+    <h3>_Post Processing</h3>
+  </div>
+  <div id="postprocessingSection-hidden" class="section-hidden">
+      <div class="singleSection-row">
+          <p class="singleSection-column">
+              Una volta completati i render si è cominciato a montare i diversi livelli assieme utilizzando Adobe Premiere Pro. Per ogni scena è stata quindi realizzata una composizione in seguito aperta su After Effects per applicare glow e nebbia. Per poter tornare su Premiere e montare l’animazione intera è stato necessario esportare da After Effects ogni scena in formato AVI, a causa della mancanza di computer abbastanza potenti per la gestione contemporanea delle diverse composizioni.
+              <br/><br/><br/><br/>
+              <strong>Nebbia</strong><br/>
+              Come detto precedentemente la nebbia è stata realizzata su After Effects tramite overlay. Per renderla dinamica e adatta alla scena è stata utilizzata per ogni inquadratura una composizione di tipologie diverse di nebbie. A ogni tipologia di nebbia è stato applicato un adjustment layer con gli effetti di shift channels con alpha luminance e fill per il colore della nebbia (#FF9BED).
+              <br/><br/><br/><br/>
+              <strong>Glow</strong><br/>
+              L’effetto di glow è stato applicato alle particelle che volano nello spazio. È stato impostato un raggio ampio ed è stata aumentata l’intensità. Abbiamo posizionato l’effetto al di sopra delle particelle e abbiamo cambiato i colori: verso il centro il glow avrà una sfumatura rosa, mentre l’alone esterno sarà blu.
+              Il glow è stato applicato anche per il cuore e per il cerchio di energia. In questi due casi il colore dell’alone è stato preso dal colore del livello.
+          </p>
+          <div class="image singleSection-column"></div>
+      </div>
+  </div>
+  <!-- Montaggio Video -->
+  <div id="montaggiovideoSection" class="titleSection">
+      <h3>_Montaggio Video</h3>
+    </div>
+    <div id="montaggiovideoSection-hidden" class="section-hidden">
+        <div class="singleSection-row">
+            <p class="singleSection-column">
+                Nella maggior parte dei casi il passaggio tra scene è stato affidato al cut. In tre occasioni sono state utilizzate transizioni differenti. Quando il robot si lascia cadere a terra si passa al nero, facendo diventare la camera gli occhi del personaggio svenuto e la transizione alla scena successiva avviene gradualmente con una dissolvenza; la seconda transizione particolare si ha nel momento in cui il cerchio di energia sprigiona un lampo di luce: la scena dissolve al bianco; infine, quando il cuore si rompe al rallentatore la scena sfuma sulla successiva che vede il robot accasciarsi davanti alla pozza.
+                Solo in fase di montaggio è stato possibile accorgersi di alcuni errori nell’animazione e nelle scelte di inquadratura. Grazie ai livelli con sfondo trasparente, tuttavia, si è riusciti a sistemare la maggior parte dei problemi manipolando e cambiando solo i frame problematici.
+                <br><br>
+                Una delle difficoltà incontrate è stata riuscire a rendere più evidente il significato delle scene di dettaglio sulle particelle. Il robot, dopo aver ripetuto lo stesso infinito ciclo, sta cominciando a ricordarsi del cerchio di energia, che si forma soltanto quando si ferma memore del luogo. Inizialmente si aveva l’impressione che le particelle si stessero formando nello stesso momento in cui il robot si trovava a correre. Per cercare di esplicitare meglio il significato, si è deciso di applicare un effetto di glitch tramite overlay che ricorda la natura tecnologica del robot e il malfunzionamento della sua memoria.
+            </p>
+              <div class="image singleSection-column"></div>
+        </div>
+    </div>
+  <!-- Montaggio Audio -->
+  <div id="montaggioaudioSection" class="titleSection">
+      <h3>_Montaggio Audio</h3>
+    </div>
+    <div id="montaggioaudioSection-hidden" class="section-hidden">
+        <div class="singleSection-row">
+            <p class="singleSection-column">
+                L’audio ha svolto una parte fondamentale del lavoro. Si è scelto di non utilizzare musiche ma soltanto suoni puntuali e ambientali per far emergere l’angoscia della situazione.
+                A parte l’effetto di aura che si ascolta quando il cuore si rompe che è stato realizzato appositamente, i suoni sono stati trovati su Freesound e tra gli asset gratuiti di Unity. Sono stati in seguito tagliati e ricomposti per seguire al meglio le animazioni.
+                Una volta montati, sono stati curati pan e volume su Cubase. A seconda della posizione e della direzione che prende il robot, il suono proviene da sinistra o da destra. Allo stesso modo, il volume si abbassa e si alza a seconda della distanza dall’osservatore. Inoltre si è cercato di rendere il più omogenei possibile i suoni composti da segmenti di tracce diverse.
+                Infine è stato applicato l’effetto di eco.
+            </p>
+              <div class="image singleSection-column"></div>
+        </div>
+    </div>
+  <!-- Correzione Colore -->
+  <div id="correzionecoloreSection" class="titleSection">
+      <h3>_Correzione Colore</h3>
+    </div>
+    <div id="correzionecoloreSection-hidden" class="section-hidden">
+        <div class="singleSection-row">
+            <p class="singleSection-column">
+                Si è scelto di accentuare la dimensione indistinta in cui è ambientata la storia tramite le scelte di correzione colore. Sono stati leggermente alzati l’esposizione e il contrasto, l’immagine è stata desaturata ed è stato applicato il faded film. Il colore è stato virato sul viola freddo, con l’obiettivo di rendere più omogenei il robot e le lucine a cui era stato applicato l’effetto glow. Nelle scene con il cuore in primo piano è stato schiarito l’azzurro e sono stati spostati i mezzitoni sul viola. Infine è stata applicata una leggera vignettatura.
+            </p>
+              <div class="image singleSection-column"></div>
+        </div>
+    </div>
+    <script src="./js/post-production.js"></script>
+</body>
+</html>
