@@ -19,35 +19,20 @@ let currentFrame = 1
 // }
 
 let preProductionBlock = document.getElementById('preProduction')
-
 preProductionBlock.onclick = function() {
   window.location.href = './pre-production.html'
 }
 
 let productionBlock = document.getElementById('production')
-let productionHiddenBlock = document.getElementById('production-hidden')
-
 productionBlock.onclick = function() {
-
-  console.log(productionHiddenBlock.style.display)
-
-  if( productionHiddenBlock.style.display == 'block' )
-    productionHiddenBlock.style.display = 'none'
-  else
-    productionHiddenBlock.style.display = 'block'
+  window.location.href = './production.html'
 }
 
 let postProductionBlock = document.getElementById('postProduction')
 let postProductionHiddenBlock = document.getElementById('postProduction-hidden')
 
 postProductionBlock.onclick = function() {
-
-  console.log(postProductionHiddenBlock.style.display)
-
-  if( postProductionHiddenBlock.style.display == 'block' )
-    postProductionHiddenBlock.style.display = 'none'
-  else
-    postProductionHiddenBlock.style.display = 'block'
+  window.location.href = './post-production.html'
 }
 
 function changeFrame(){
