@@ -6,7 +6,7 @@
 	font-family: "DMSans-Bold";
   src: url("../fonts/dmsans-bold-webfont.woff") format("woff");
 }
-@font-face {
+@font-face {
   font-family: "Heavitas";
   src: url("../fonts/heavitas-webfont.woff") format("woff");
 }
@@ -274,6 +274,11 @@ p {
 
 #conceptSection-hidden{
   display: none;
+}
+
+.singleSection-fullwidth{
+  width: calc(100% - 100px);
+  padding: 0 50px;
 }
 
 .singleSection-row{
