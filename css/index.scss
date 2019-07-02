@@ -290,6 +290,15 @@ p {
   }
 }
 
+.storyboard-grid{
+  display: flex;
+
+  img{
+    position: relative;
+    width: calc(100%/4);
+  }
+}
+
 
 /* Animations */
 

@@ -271,6 +271,14 @@ p {
   background-color: grey;
 }
 
+.storyboard-grid {
+  display: flex;
+}
+.storyboard-grid img {
+  position: relative;
+  width: calc(100%/4);
+}
+
 /* Animations */
 @keyframes appariLogo {
   from {
