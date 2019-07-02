@@ -257,6 +257,19 @@ p {
 #conceptSection-hidden {
   display: none;
 }
+#conceptSection-hidden .moodboard {
+  padding: 0 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+#conceptSection-hidden .moodboard .moodboard-image {
+  width: 200px;
+  height: 200px;
+  background-color: grey;
+  margin: 20px 20px;
+}
 
 .singleSection-fullwidth {
   width: calc(100% - 100px);

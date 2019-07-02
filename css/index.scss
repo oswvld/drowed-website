@@ -274,6 +274,21 @@ p {
 
 #conceptSection-hidden{
   display: none;
+
+  .moodboard{
+    padding: 0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    .moodboard-image{
+      width: 200px;
+      height: 200px;
+      background-color: grey;
+      margin: 20px 20px;
+    }
+  }
 }
 
 .singleSection-fullwidth{
