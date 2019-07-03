@@ -12,47 +12,32 @@ conceptSectionBlock.onclick = function() {
     conceptSectionHiddenBlock.style.display = 'block'
 }
 
-/* Personaggio */
+/* Narrazione Storyboard */
 
-let personaggioSectionBlock = document.getElementById('personaggioSection')
-let personaggioSectionHiddenBlock = document.getElementById('personaggioSection-hidden')
+let narrazionestoryboardSectionBlock = document.getElementById('narrazionestoryboardSection')
+let narrazionestoryboardSectionHiddenBlock = document.getElementById('narrazionestoryboardSection-hidden')
 
-personaggioSectionBlock.onclick = function() {
+narrazionestoryboardSectionBlock.onclick = function() {
 
-  console.log(personaggioSectionHiddenBlock.style.display)
+  console.log(narrazionestoryboardSectionHiddenBlock.style.display)
 
-  if( personaggioSectionHiddenBlock.style.display == 'block' )
-  personaggioSectionHiddenBlock.style.display = 'none'
+  if( narrazionestoryboardSectionHiddenBlock.style.display == 'block' )
+  narrazionestoryboardSectionHiddenBlock.style.display = 'none'
   else
-  personaggioSectionHiddenBlock.style.display = 'block'
+  narrazionestoryboardSectionHiddenBlock.style.display = 'block'
 }
 
-/* Ambiente */
+/* Personaggio Ambiente */
 
-let ambienteSectionBlock = document.getElementById('ambienteSection')
-let ambienteSectionHiddenBlock = document.getElementById('ambienteSection-hidden')
+let personaggioambienteSectionBlock = document.getElementById('personaggioambienteSection')
+let personaggioambienteSectionHiddenBlock = document.getElementById('personaggioambienteSection-hidden')
 
-ambienteSectionBlock.onclick = function() {
+personaggioambienteSectionBlock.onclick = function() {
 
-  console.log(ambienteSectionHiddenBlock.style.display)
+  console.log(personaggioambienteSectionHiddenBlock.style.display)
 
-  if( ambienteSectionHiddenBlock.style.display == 'block' )
-  ambienteSectionHiddenBlock.style.display = 'none'
+  if( personaggioambienteSectionHiddenBlock.style.display == 'block' )
+  personaggioambienteSectionHiddenBlock.style.display = 'none'
   else
-  ambienteSectionHiddenBlock.style.display = 'block'
-}
-
-/* Storyboard */
-
-let storyboardSectionBlock = document.getElementById('storyboardSection')
-let storyboardSectionHiddenBlock = document.getElementById('storyboardSection-hidden')
-
-storyboardSectionBlock.onclick = function() {
-
-  console.log(storyboardSectionHiddenBlock.style.display)
-
-  if( storyboardSectionHiddenBlock.style.display == 'block' )
-  storyboardSectionHiddenBlock.style.display = 'none'
-  else
-  storyboardSectionHiddenBlock.style.display = 'block'
+  personaggioambienteSectionHiddenBlock.style.display = 'block'
 }

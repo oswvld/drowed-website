@@ -292,6 +292,12 @@ p {
   display: none;
 }
 
+#conceptSection{
+  background-image: url('../images/concept-reference.png');
+  height: 300px;
+  background-size: cover;
+}
+
 #conceptSection-hidden{
   display: none;
 
@@ -309,6 +315,48 @@ p {
       margin: 20px 20px;
     }
   }
+}
+
+#narrazionestoryboardSection{
+  background-image: url('../images/narrazione-storyboard.png');
+  background-size: cover;
+  height: 300px;
+}
+
+#personaggioambienteSection{
+  background-image: url('../images/personaggio-ambiente.png');
+  background-size: cover;
+  height: 300px;
+}
+
+#animazionipersonaggioSection{
+  background-image: url('../images/animazioni-personaggio.png');
+  background-size: cover;
+  height: 300px;
+}
+
+#animazionieffettiSection{
+  background-image: url('../images/animazioni-effetti.png');
+  background-size: cover;
+  height: 300px;
+}
+
+#aftereffectsSection{
+  background-image: url('../images/after-effects/after-effects.png');
+  background-size: cover;
+  height: 300px;
+}
+
+#renderSection{
+  background-image: url('../images/render.png');
+  background-size: cover;
+  height: 300px;
+}
+
+#montaggioSection{
+  background-image: url('../images/Montaggio/montaggio.png');
+  background-size: cover;
+  height: 300px;
 }
 
 .singleSection-fullwidth{
